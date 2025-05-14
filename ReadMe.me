@@ -1,0 +1,84 @@
+This repository is my working on learning how to use AI by using AI to teach... well ... AI
+
+we can "JUST DO" things to learn in this new age. And to be "all in" on AI I must learn these basics.
+
+This repository contains a collection of AI/ML projects demonstrating various aspects of artificial intelligence and machine learning using Python. 
+Each project is designed to team me a different use case of AI and showcase different AI techniques and applications.
+
+## Projects Included
+
+1. **Classification with Scikit-learn**
+   - Demonstrates basic machine learning classification using the Iris dataset
+   - Shows data preprocessing, model training, and evaluation
+   - Includes visualization of results
+
+2. **Natural Language Processing (NLP)**
+   - Text classification using transformers
+   - Sentiment analysis example
+   - Named Entity Recognition (NER)
+
+3. **Computer Vision**
+   - Image classification using TensorFlow
+   - Object detection basics
+   - Image preprocessing and augmentation
+
+4. **Deep Learning**
+   - Neural network implementation using PyTorch
+   - Basic image classification with CNN
+   - Model training and evaluation
+
+## Setup Instructions
+
+1. Create a virtual environment (recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Download required NLTK data:
+   ```python
+   import nltk
+   nltk.download('punkt')
+   nltk.download('stopwords')
+   ```
+
+## Project Structure
+
+```
+ai_portfolio/
+├── classification/
+│   ├── iris_classifier.py
+│   └── utils.py
+├── nlp/
+│   ├── sentiment_analysis.py
+│   └── text_classification.py
+├── computer_vision/
+│   ├── image_classifier.py
+│   └── object_detection.py
+├── deep_learning/
+│   ├── neural_network.py
+│   └── cnn_classifier.py
+└── utils/
+    └── data_utils.py
+```
+
+## Requirements
+
+- Python 3.8+
+- See requirements.txt for all dependencies
+
+## Usage
+
+Each project directory contains its own README with specific instructions for running the examples. Start with the classification project for a gentle introduction to machine learning concepts.
+
+## Learning Resources
+
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
+- [TensorFlow Tutorials](https://www.tensorflow.org/tutorials)
+- [PyTorch Tutorials](https://pytorch.org/tutorials/)
+- [Hugging Face Transformers](https://huggingface.co/docs/transformers/index) 
